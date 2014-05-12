@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'WhitneyHTFBookItalic';
+    src: url('whitneyhtf-bookitalic.eot');
+    src: url('whitneyhtf-bookitalic.eot') format('embedded-opentype'),
+         url('whitneyhtf-bookitalic.woff') format('woff'),
+         url('whitneyhtf-bookitalic.ttf') format('truetype'),
+         url('whitneyhtf-bookitalic.svg#WhitneyHTFBookItalic') format('svg');
+}

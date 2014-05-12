@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'IdealSansLight';
+    src: url('idealsans-light-pro.eot');
+    src: url('idealsans-light-pro.eot') format('embedded-opentype'),
+         url('idealsans-light-pro.woff') format('woff'),
+         url('idealsans-light-pro.ttf') format('truetype'),
+         url('idealsans-light-pro.svg#IdealSansLight') format('svg');
+}

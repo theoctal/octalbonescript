@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            OctalBonescript.js
+tagline:          'One that just works!'
+description:      'The most reliable JS library for your BeagleBone.'
+url:              http://octalbonejs.com
+
+author:
+  name:           'Octal Consulting LLP'
+  url:            https://twitter.com/octalhq
+
+paginate:         5
+
+# Custom vars
+github:
+  repo:           https://github.com/theoctal/OctalBonescript

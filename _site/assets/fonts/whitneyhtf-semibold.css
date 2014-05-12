@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'WhitneyHTFSemiBold';
+    src: url('whitneyhtf-semibold.eot');
+    src: url('whitneyhtf-semibold.eot') format('embedded-opentype'),
+         url('whitneyhtf-semibold.woff') format('woff'),
+         url('whitneyhtf-semibold.ttf') format('truetype'),
+         url('whitneyhtf-semibold.svg#WhitneyHTFSemiBold') format('svg');
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>OctalBonescript.js</title>
+ <link href="http://octalbonejs.com/atom.xml" rel="self"/>
+ <link href="http://octalbonejs.com/"/>
+ <updated>2014-05-10T04:35:48+05:30</updated>
+ <id>http://octalbonejs.com</id>
+ <author>
+   <name>Octal Consulting LLP</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Aditya Patadia</title>
+   <link href="http://octalbonejs.com/2013/12/31/hyde/"/>
+   <updated>2013-12-31T00:00:00+05:30</updated>
+   <id>http://octalbonejs.com/2013/12/31/hyde</id>
+   <content type="html">&lt;p&gt;The JavaScript programmer primarily working on the library.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hardik Pandya</title>
+   <link href="http://octalbonejs.com/2013/12/30/lanyon/"/>
+   <updated>2013-12-30T00:00:00+05:30</updated>
+   <id>http://octalbonejs.com/2013/12/30/lanyon</id>
+   <content type="html">&lt;p&gt;A hardware designer constantly testing and modifying the library.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

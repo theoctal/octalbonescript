@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Ideal Sans';
+    src: url('/assets/fonts/idealsans-mediumitalic-pro.eot');
+    src: url('/assets/fonts/idealsans-mediumitalic-pro.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/idealsans-mediumitalic-pro.woff') format('woff'),
+         url('/assets/fonts/idealsans-mediumitalic-pro.ttf') format('truetype'),
+         url('/assets/fonts/idealsans-mediumitalic-pro.svg#idealsans-mediumitalic-pro') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Ideal Sans';
+    src: url('/assets/fonts/idealsans-medium-pro.eot');
+    src: url('/assets/fonts/idealsans-medium-pro.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/idealsans-medium-pro.woff') format('woff'),
+         url('/assets/fonts/idealsans-medium-pro.ttf') format('truetype'),
+         url('/assets/fonts/idealsans-medium-pro.svg#idealsans-medium-pro') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Ideal Sans';
+    src: url('/assets/fonts/idealsans-lightitalic-pro.eot');
+    src: url('/assets/fonts/idealsans-lightitalic-pro.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/idealsans-lightitalic-pro.woff') format('woff'),
+         url('/assets/fonts/idealsans-lightitalic-pro.otf') format('truetype'),
+         url('/assets/fonts/idealsans-lightitalic-pro.svg#idealsans-lightitalic-pro') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Ideal Sans';
+    src: url('/assets/fonts/idealsans-light-pro.eot');
+    src: url('/assets/fonts/idealsans-light-pro.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/idealsans-light-pro.woff') format('woff'),
+         url('/assets/fonts/idealsans-light-pro.otf') format('truetype'),
+         url('/assets/fonts/idealsans-light-pro.svg#idealsans-light-pro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('/assets/fonts/whitneyhtf-semibolditalic.eot');
+    src: url('/assets/fonts/whitneyhtf-semibolditalic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/whitneyhtf-semibolditalic.woff') format('woff'),
+         url('/assets/fonts/whitneyhtf-semibolditalic.ttf') format('truetype'),
+         url('/assets/fonts/whitneyhtf-semibolditalic.svg#whitneyhtf-semibolditalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('/assets/fonts/whitneyhtf-semibold.eot');
+    src: url('/assets/fonts/whitneyhtf-semibold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/whitneyhtf-semibold.woff') format('woff'),
+         url('/assets/fonts/whitneyhtf-semibold.ttf') format('truetype'),
+         url('/assets/fonts/whitneyhtf-semibold.svg#whitneyhtf-semibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('/assets/fonts/whitneyhtf-bookitalic.eot');
+    src: url('/assets/fonts/whitneyhtf-bookitalic.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/whitneyhtf-bookitalic.woff') format('woff'),
+         url('/assets/fonts/whitneyhtf-bookitalic.otf') format('truetype'),
+         url('/assets/fonts/whitneyhtf-bookitalic.svg#whitneyhtf-bookitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('/assets/fonts/whitneyhtf-book.eot');
+    src: url('/assets/fonts/whitneyhtf-book.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/whitneyhtf-book.woff') format('woff'),
+         url('/assets/fonts/whitneyhtf-book.otf') format('truetype'),
+         url('/assets/fonts/whitneyhtf-book.svg#whitneyhtf-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+  font-family: "Ideal Sans", Georgia, "Times New Roman", serif;
+}
+body {
+  padding: 2rem 1rem;
+  color: #F5C8AE;
+  text-align: center;
+  background-color: #4A323E;
+}
+
+a {
+  color: #F5EAE4;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: .25rem 1rem;
+  font-family: "Whitney", sans-serif;
+  color: #eee;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: .1rem solid #fafafa;
+  border-radius: .4rem;
+}
+.bio{
+  margin: .5rem;
+}
+.btn2 {
+  display: inline-block;
+  padding: .25rem 1rem;
+
+margin: .5rem;
+  font-family: "Whitney", sans-serif;
+  color: #F5C8AE;
+
+  border: .1rem solid #F5C8AE;
+  border-radius: .4rem;
+}
+.btn:hover,
+.btn:focus {
+  color: #a24914;
+  background-color: #fafafa;
+  border-color: #fafafa;
+}
+.btn2:hover,
+.btn2:focus {
+  color: #a24914;
+  background-color: #fafafa;
+  border-color: #fafafa;
+}
+
+h1, h2, h3 {
+  color: #EBDFE5;
+  font-family: "Whitney", "Ideal Sans", sans-serif;
+}
+
+.thins {
+  font-weight: normal;
+}
+
+.header-title {
+  display: inline-block;
+  
+  margin-bottom: 1rem;
+  text-align: center !important;
+}
+.header-lead {
+  margin-bottom: 0;
+}
+
+hr {
+  max-width: 6rem;
+  margin: 1rem auto;
+  border-top-color: #CC9270;
+  border-bottom: 0;
+}
+
+.themes {
+  overflow: hidden; /* clearfix */
+  text-align: center;
+  padding: 0 .2rem;
+}
+.theme {
+  float: left;
+  width: 50%;
+  padding: 0 1rem;
+}
+.theme h3 {
+  margin-top: 1rem;
+}

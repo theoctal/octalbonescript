@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<center><img src="{{ site.url }}/assets/images/bbone.png" alt="" width="50%" height="50%"></center>
+
+<h2>Introduction</h2>
+<p>OctalBonescript is a JavaScript library for controlling and programming your <a href="http://beagleboard.org">BeagleBone</a>. You can create web-based applications using the power of JavaScript and control your BeagleBone right from within your browser. It runs with <a href="http://nodejs.org">Node.js</a> and supports <a href="http://socket.io">socket.io</a> out-of-the-box.</p>
+<p>
+  <a href="https://github.com/theoctal/octalbonescript" class="btn">Fork on GitHub</a>
+  <a href="https://www.npmjs.org/package/octalbonescript" class="btn">Node.js Package</a>
+</p>
+
+<h3 class="thins">Currently, v0.2.12</h3>
+<a href="https://github.com/theoctal/octalbonescript/blob/master/README.md" class="btn2">Read the Full Documentation</a> 
+<hr>
+
+<h2>Salient features</h2>
+<p><em>OctalBonescript.js lets you do the following and more</em></p>
+
+
+  <p>1. Control your BeagleBone using JavaScript <br /> 
+  2. Built standalone web-applications hosted on BeagleBone<br /> 
+  3. Support for Arduino-like functions to control pins <br /> 
+  4. Socket.io and Node.js compatible <br /> 
+  5. Create software interfaces for controlling hardware<br /> 
+  6. Continuously maintained and developed</p>
+       
+
+<hr>
+
+<h2>Made by Octal</h2>
+<p>We are the people behind OctalBonescript.js</p>
+
+<div class="themes">
+  {% for post in paginator.posts %}
+  <div class="theme">
+    <h3>
+      {{ post.title }}
+    </h3>
+    {{ post.content }}
+    <p>
+      <a href="http://twitter.com/{{ post.twitter }}" class="bio">@</a>&middot;<a href="https://{{ post.site }}" class="bio">www</a>
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<hr>
+
+
+
+<h2>Support and Questions</h2>
+<p>We wish that you enjoy using OctalBonescript.js as much as we did building it. We want you to make awesome projects and have fun.</p>
+
+<p>If you run into any problems, we're always listening via email (<a href="mailto:mail@theoctal.com">mail@theoctal.com</a>) or <a href="http://twitter.com/octalhq">@OctalHQ</a>.</p>
+
+<hr>
+
+<p>Made with love and coffee.</p>
+<p>&copy; {{ site.time | date: '%Y' }} Octal Consulting LLP</p>

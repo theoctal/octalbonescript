@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'IdealSansMedium';
+    src: url('idealsans-medium-pro.eot');
+    src: url('idealsans-medium-pro.eot') format('embedded-opentype'),
+         url('idealsans-medium-pro.woff') format('woff'),
+         url('idealsans-medium-pro.ttf') format('truetype'),
+         url('idealsans-medium-pro.svg#IdealSansMedium') format('svg');
+}
