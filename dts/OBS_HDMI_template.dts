@@ -762,7 +762,7 @@
     /************************/
 
     fragment@12 {
-        target = <&uart6>;  /* really uart5 */
+        target = <&uart5>;  /* really uart5, not any longer it seems (was uart6) */
         __overlay__ {
             status = "okay";
             pinctrl-names = "default";

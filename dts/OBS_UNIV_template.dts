@@ -1137,6 +1137,7 @@
             // !!!WARNING!!!
             // gpio-of-helper &gpio pointers are off-by-one vs. the hardware:
             //   hardware GPIO bank 0 = &gpio1
+			// 2015-08-30 : not any longer. Bank 0 = &gpio0
             cape-universal {
                 compatible = "gpio-of-helper";
                 status = "okay";
@@ -1145,85 +1146,85 @@
 
                 P8_07 {
                     gpio-name = "P8_07";
-                    gpio = <&gpio3 2 0>;
+                    gpio = <&gpio2 2 0>;
                     input;
                     dir-changeable;
                 };
                 P8_08 {
                     gpio-name = "P8_08";
-                    gpio = <&gpio3 3 0>;
+                    gpio = <&gpio2 3 0>;
                     input;
                     dir-changeable;
                 };
                 P8_09 {
                     gpio-name = "P8_09";
-                    gpio = <&gpio3 5 0>;
+                    gpio = <&gpio2 5 0>;
                     input;
                     dir-changeable;
                 };
                 P8_10 {
                     gpio-name = "P8_10";
-                    gpio = <&gpio3 4 0>;
+                    gpio = <&gpio2 4 0>;
                     input;
                     dir-changeable;
                 };
                 P8_11 {
                     gpio-name = "P8_11";
-                    gpio = <&gpio2 13 0>;
+                    gpio = <&gpio1 13 0>;
                     input;
                     dir-changeable;
                 };
                 P8_12 {
                     gpio-name = "P8_12";
-                    gpio = <&gpio2 12 0>;
+                    gpio = <&gpio1 12 0>;
                     input;
                     dir-changeable;
                 };
                 P8_13 {
                     gpio-name = "P8_13";
-                    gpio = <&gpio1 23 0>;
+                    gpio = <&gpio0 23 0>;
                     input;
                     dir-changeable;
                 };
                 P8_14 {
                     gpio-name = "P8_14";
-                    gpio = <&gpio1 26 0>;
+                    gpio = <&gpio0 26 0>;
                     input;
                     dir-changeable;
                 };
                 P8_15 {
                     gpio-name = "P8_15";
-                    gpio = <&gpio2 15 0>;
+                    gpio = <&gpio1 15 0>;
                     input;
                     dir-changeable;
                 };
                 P8_16 {
                     gpio-name = "P8_16";
-                    gpio = <&gpio2 14 0>;
+                    gpio = <&gpio1 14 0>;
                     input;
                     dir-changeable;
                 };
                 P8_17 {
                     gpio-name = "P8_17";
-                    gpio = <&gpio1 27 0>;
+                    gpio = <&gpio0 27 0>;
                     input;
                     dir-changeable;
                 };
                 P8_18 {
                     gpio-name = "P8_18";
-                    gpio = <&gpio3 1 0>;
+                    gpio = <&gpio2 1 0>;
                     input;
                     dir-changeable;
                 };
                 P8_19 {
                     gpio-name = "P8_19";
-                    gpio = <&gpio1 22 0>;
+                    gpio = <&gpio0 22 0>;
                     input;
                     dir-changeable;
                 };
                 P8_26 {
                     gpio-name = "P8_26";
-                    gpio = <&gpio2 29 0>;
+                    gpio = <&gpio1 29 0>;
                     input;
                     dir-changeable;
                 };
@@ -1231,49 +1232,49 @@
 
                 P9_11 {
                     gpio-name = "P9_11";
-                    gpio = <&gpio1 30 0>;
+                    gpio = <&gpio0 30 0>;
                     input;
                     dir-changeable;
                 };
                 P9_12 {
                     gpio-name = "P9_12";
-                    gpio = <&gpio2 28 0>;
+                    gpio = <&gpio1 28 0>;
                     input;
                     dir-changeable;
                 };
                 P9_13 {
                     gpio-name = "P9_13";
-                    gpio = <&gpio1 31 0>;
+                    gpio = <&gpio0 31 0>;
                     input;
                     dir-changeable;
                 };
                 P9_14 {
                     gpio-name = "P9_14";
-                    gpio = <&gpio2 18 0>;
+                    gpio = <&gpio1 18 0>;
                     input;
                     dir-changeable;
                 };
                 P9_15 {
                     gpio-name = "P9_15";
-                    gpio = <&gpio2 16 0>;
+                    gpio = <&gpio1 16 0>;
                     input;
                     dir-changeable;
                 };
                 P9_16 {
                     gpio-name = "P9_16";
-                    gpio = <&gpio2 19 0>;
+                    gpio = <&gpio1 19 0>;
                     input;
                     dir-changeable;
                 };
                 P9_17 {
                     gpio-name = "P9_17";
-                    gpio = <&gpio1 5 0>;
+                    gpio = <&gpio0 5 0>;
                     input;
                     dir-changeable;
                 };
                 P9_18 {
                     gpio-name = "P9_18";
-                    gpio = <&gpio1 4 0>;
+                    gpio = <&gpio0 4 0>;
                     input;
                     dir-changeable;
                 };
@@ -1284,25 +1285,25 @@
 
                 P9_21 {
                     gpio-name = "P9_21";
-                    gpio = <&gpio1 3 0>;
+                    gpio = <&gpio0 3 0>;
                     input;
                     dir-changeable;
                 };
                 P9_22 {
                     gpio-name = "P9_22";
-                    gpio = <&gpio1 2 0>;
+                    gpio = <&gpio0 2 0>;
                     input;
                     dir-changeable;
                 };
                 P9_23 {
                     gpio-name = "P9_23";
-                    gpio = <&gpio2 17 0>;
+                    gpio = <&gpio1 17 0>;
                     input;
                     dir-changeable;
                 };
                 P9_24 {
                     gpio-name = "P9_24";
-                    gpio = <&gpio1 15 0>;
+                    gpio = <&gpio0 15 0>;
                     input;
                     dir-changeable;
                 };
@@ -1312,13 +1313,13 @@
 
                 P9_26 {
                     gpio-name = "P9_26";
-                    gpio = <&gpio1 14 0>;
+                    gpio = <&gpio0 14 0>;
                     input;
                     dir-changeable;
                 };
                 P9_27 {
                     gpio-name = "P9_27";
-                    gpio = <&gpio4 19 0>;
+                    gpio = <&gpio3 19 0>;// was gpio4
                     input;
                     dir-changeable;
                 };
@@ -1329,7 +1330,7 @@
 
                 P9_30 {
                     gpio-name = "P9_30";
-                    gpio = <&gpio4 16 0>;
+                    gpio = <&gpio3 16 0>;// was gpio4
                     input;
                     dir-changeable;
                 };
@@ -1339,25 +1340,25 @@
 
                 P9_41 {
                     gpio-name = "P9_41";
-                    gpio = <&gpio1 20 0>;
+                    gpio = <&gpio0 20 0>;
                     input;
                     dir-changeable;
                 };
                 P9_91 {
                     gpio-name = "P9_91";
-                    gpio = <&gpio4 20 0>;
+                    gpio = <&gpio3 20 0>;// was gpio4
                     input;
                     dir-changeable;
                 };
                 P9_42 {
                     gpio-name = "P9_42";
-                    gpio = <&gpio1 7 0>;
+                    gpio = <&gpio0 7 0>;
                     input;
                     dir-changeable;
                 };
                 P9_92 {
                     gpio-name = "P9_92";
-                    gpio = <&gpio4 18 0>;
+                    gpio = <&gpio3 18 0>;// was gpio4
                     input;
                     dir-changeable;
                 };

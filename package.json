@@ -15,10 +15,10 @@
     "octalbonescript"
   ],
   "version": "1.0.6",
-  "homepage": "",
+  "homepage": "https://github.com/theoctal/octalbonescript#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theoctal/octalbonescript"
+    "url": "git://github.com/theoctal/octalbonescript.git"
   },
   "main": "index.js",
   "engines": {
@@ -29,7 +29,9 @@
     "verror": "1.6.x",
     "shelljs": "0.5.x",
     "serialport": "1.7.x",
-    "epoll": "0.1.x"
+    "epoll": "0.1.x",
+    "i2c": "0.1.x",
+	"async": "~0.2.10"
   },
   "devDependencies": {
     "chai": "^2.0.0",
@@ -38,5 +40,31 @@
   "scripts": {},
   "optionalDependencies": {
     "i2c": "0.1.x"
-  }
+  },
+  "gitHead": "b2a92a8cdccbc87bf39e4badabc03b5929799ec4",
+  "bugs": {
+    "url": "https://github.com/theoctal/octalbonescript/issues"
+  },
+  "_id": "octalbonescript@1.0.6",
+  "_shasum": "3487c706ec42028eb4c96a8aad36b698ca545972",
+  "_from": "octalbonescript@>=1.0.6 <1.1.0",
+  "_npmVersion": "2.12.1",
+  "_nodeVersion": "0.12.6",
+  "_npmUser": {
+    "name": "adityapatadia",
+    "email": "aditya@patadia.org"
+  },
+  "maintainers": [
+    {
+      "name": "adityapatadia",
+      "email": "aditya@patadia.org"
+    }
+  ],
+  "dist": {
+    "shasum": "3487c706ec42028eb4c96a8aad36b698ca545972",
+    "tarball": "http://registry.npmjs.org/octalbonescript/-/octalbonescript-1.0.6.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/octalbonescript/-/octalbonescript-1.0.6.tgz",
+  "readme": "ERROR: No README data found!"
 }

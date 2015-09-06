@@ -28,18 +28,22 @@ if (os.type() == 'Linux' && os.arch() == 'arm') {
     if (!bone.is_cape_universal()) {
         debug('Loading Universal Cape interface...');
         bone.create_dt_sync("OBS_UNIV");
-        if (!bone.is_audio_enable()) {
-            debug('Loading AUDIO Cape...');
-            bone.create_dt_sync("OBS_AUDIO");
-        }
-        if (!bone.is_hdmi_enable()) {
-            debug('Loading HDMI Cape...');
-            bone.create_dt_sync("OBS_HDMI");
-        }
+        //if (!bone.is_audio_enable()) {
+        //    debug('Loading AUDIO Cape...');
+        //    bone.create_dt_sync("OBS_AUDIO");
+        //}
+        //if (!bone.is_hdmi_enable()) {
+        //    debug('Loading HDMI Cape...');
+        //    bone.create_dt_sync("OBS_HDMI");
+        //}
     }
+	if (!bone.is_cape_analog()) {
+		debug('Loading Analog input Cape...');
+		bone.load_dt_sync('BB-ADC');
+	}
     debug('Using Universal Cape interface');
     hw = require('./lib/hw_universal');
-
+	
     debug('Enabling analog inputs');
     hw.analog.enable();
 } else {

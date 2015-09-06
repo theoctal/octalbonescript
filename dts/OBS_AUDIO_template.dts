@@ -207,28 +207,28 @@
 
                 P9_25 {
                     gpio-name = "P9_25";
-                    gpio = <&gpio4 21 0>;
+                    gpio = <&gpio3 21 0>;//was gpio4
                     input;
                     dir-changeable;
                 };
 
                 P9_28 {
                     gpio-name = "P9_28";
-                    gpio = <&gpio4 17 0>;
+                    gpio = <&gpio3 17 0>;//was gpio4
                     input;
                     dir-changeable;
                 };
 
                 P9_29 {
                     gpio-name = "P9_29";
-                    gpio = <&gpio4 15 0>;
+                    gpio = <&gpio3 15 0>;//was gpio4
                     input;
                     dir-changeable;
                 };
 
                 P9_31 {
                     gpio-name = "P9_31";
-                    gpio = <&gpio4 14 0>;
+                    gpio = <&gpio3 14 0>;//was gpio4
                     input;
                     dir-changeable;
                 };
