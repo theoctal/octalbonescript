@@ -1,9 +1,6 @@
 {
-  "author": {
-    "name": "Aditya Patadia",
-    "url": "http://aditya.patadia.org"
-  },
-  "name": "octalbonescript",
+  "author": "Aditya Patadia (http://aditya.patadia.org)",
+  "name": "octalbonescript_capeMgr4_1",
   "description": "Physical computing library for embedded Linux and BeagleBone",
   "keywords": [
     "embedded",
@@ -12,13 +9,14 @@
     "beaglebone",
     "gpio",
     "bonescript",
-    "octalbonescript"
+    "octalbonescript",
+	"octalbonescript_capeMgr4_1"
   ],
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://github.com/theoctal/octalbonescript#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theoctal/octalbonescript.git"
+    "url": "git://github.com/ruth0000/octalbonescript_capeMgr4_1.git"
   },
   "main": "index.js",
   "engines": {
@@ -31,7 +29,7 @@
     "serialport": "1.7.x",
     "epoll": "0.1.x",
     "i2c": "0.1.x",
-	"async": "~0.2.10"
+    "async": "~0.2.10"
   },
   "devDependencies": {
     "chai": "^2.0.0",
@@ -41,30 +39,11 @@
   "optionalDependencies": {
     "i2c": "0.1.x"
   },
-  "gitHead": "b2a92a8cdccbc87bf39e4badabc03b5929799ec4",
   "bugs": {
-    "url": "https://github.com/theoctal/octalbonescript/issues"
-  },
-  "_id": "octalbonescript@1.0.6",
-  "_shasum": "3487c706ec42028eb4c96a8aad36b698ca545972",
-  "_from": "octalbonescript@>=1.0.6 <1.1.0",
-  "_npmVersion": "2.12.1",
-  "_nodeVersion": "0.12.6",
-  "_npmUser": {
-    "name": "adityapatadia",
-    "email": "aditya@patadia.org"
+    "url": "https://github.com/ruth0000/octalbonescript_capeMgr4_1/issues"
   },
   "maintainers": [
-    {
-      "name": "adityapatadia",
-      "email": "aditya@patadia.org"
-    }
+    "adityapatadia <aditya@patadia.org>"
   ],
-  "dist": {
-    "shasum": "3487c706ec42028eb4c96a8aad36b698ca545972",
-    "tarball": "http://registry.npmjs.org/octalbonescript/-/octalbonescript-1.0.6.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/octalbonescript/-/octalbonescript-1.0.6.tgz",
-  "readme": "ERROR: No README data found!"
+  "license": "ISC"
 }
