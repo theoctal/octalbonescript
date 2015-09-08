@@ -1,6 +1,6 @@
 {
   "author": "Aditya Patadia (http://aditya.patadia.org)",
-  "name": "octalbonescript_capeMgr4_1",
+  "name": "octalbonescript_capemgr4_1",
   "description": "Physical computing library for embedded Linux and BeagleBone",
   "keywords": [
     "embedded",
@@ -10,13 +10,13 @@
     "gpio",
     "bonescript",
     "octalbonescript",
-	"octalbonescript_capeMgr4_1"
+	"octalbonescript_capemgr4_1"
   ],
   "version": "1.0.7",
-  "homepage": "https://github.com/theoctal/octalbonescript#readme",
+  "homepage": "https://github.com/ruth0000/octalbonescript_capemgr4_1#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ruth0000/octalbonescript_capeMgr4_1.git"
+    "url": "git://github.com/ruth0000/octalbonescript_capemgr4_1.git"
   },
   "main": "index.js",
   "engines": {
@@ -40,7 +40,7 @@
     "i2c": "0.1.x"
   },
   "bugs": {
-    "url": "https://github.com/ruth0000/octalbonescript_capeMgr4_1/issues"
+    "url": "https://github.com/ruth0000/octalbonescript_capemgr4_1/issues"
   },
   "maintainers": [
     "adityapatadia <aditya@patadia.org>"
