@@ -8,8 +8,6 @@ var os = require('os');
 var epoll = require('epoll');
 var verror = require("verror");
 var pinmap = require('./lib/pinmap');
-var serial = require('./lib/serial');
-var i2c = require('./lib/i2c');
 var bone = require('./lib/bone');
 var package_json = require('./package.json');
 var g = require('./lib/constants');
@@ -27,19 +25,23 @@ var hw = null;
 if (os.type() == 'Linux' && os.arch() == 'arm') {
     if (!bone.is_cape_universal()) {
         debug('Loading Universal Cape interface...');
-        bone.create_dt_sync("OBS_UNIV");
-        if (!bone.is_audio_enable()) {
-            debug('Loading AUDIO Cape...');
-            bone.create_dt_sync("OBS_AUDIO");
-        }
+        bone.create_dt_sync("cape-universal");
+        //if (!bone.is_audio_enable()) {
+        //    debug('Loading AUDIO Cape...');
+        //    bone.create_dt_sync("cape-univ-audio");
+        //}
         if (!bone.is_hdmi_enable()) {
             debug('Loading HDMI Cape...');
-            bone.create_dt_sync("OBS_HDMI");
+            bone.create_dt_sync("cape-univ-hdmi");
         }
     }
+	if (!bone.is_cape_analog()) {
+		debug('Loading Analog input Cape...');
+		bone.create_dt_sync('BB-ADC');
+	}
     debug('Using Universal Cape interface');
     hw = require('./lib/hw_universal');
-
+	
     debug('Enabling analog inputs');
     hw.analog.enable();
 } else {
@@ -671,20 +673,6 @@ f.watchdog = hw.watchdog;
 
 // Exported variables
 f.pinmap = pinmap;
-
-f.serial = serial;
-
-f.serialOpen = function() {
-    console.error("serialOpen and all related functions are removed as of v1.0.0. Please use serial.open and refer " +
-        "to README of OctalBoneScript for more information");
-};
-
-f.i2c = i2c;
-
-f.i2cOpen = function() {
-    console.error("i2cOpen and all related functions are removed as of v1.0.0. Please use i2c.open and refer " +
-        "to README of OctalBoneScript for more information");
-};
 
 for (var x in g) {
     f[x] = g[x];

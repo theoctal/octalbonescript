@@ -1,9 +1,6 @@
 {
-  "author": {
-    "name": "Aditya Patadia",
-    "url": "http://aditya.patadia.org"
-  },
-  "name": "octalbonescript",
+  "author": "Aditya Patadia (http://aditya.patadia.org)",
+  "name": "octalbonescript_capemgr4_1",
   "description": "Physical computing library for embedded Linux and BeagleBone",
   "keywords": [
     "embedded",
@@ -12,13 +9,14 @@
     "beaglebone",
     "gpio",
     "bonescript",
-    "octalbonescript"
+    "octalbonescript",
+	"octalbonescript_capemgr4_1"
   ],
-  "version": "1.0.6",
-  "homepage": "",
+  "version": "1.0.11",
+  "homepage": "https://github.com/ruth0000/octalbonescript_capemgr4_1#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theoctal/octalbonescript"
+    "url": "git://github.com/ruth0000/octalbonescript_capemgr4_1.git"
   },
   "main": "index.js",
   "engines": {
@@ -28,15 +26,18 @@
     "debug": "2.2.x",
     "verror": "1.6.x",
     "shelljs": "0.5.x",
-    "serialport": "1.7.x",
-    "epoll": "0.1.x"
+    "epoll": "0.1.x",
+    "async": "~0.2.10"
   },
   "devDependencies": {
     "chai": "^2.0.0",
     "mocha": "^2.1.0"
   },
-  "scripts": {},
-  "optionalDependencies": {
-    "i2c": "0.1.x"
-  }
+  "bugs": {
+    "url": "https://github.com/ruth0000/octalbonescript_capemgr4_1/issues"
+  },
+  "maintainers": [
+    "adityapatadia <aditya@patadia.org>"
+  ],
+  "license": "ISC"
 }
