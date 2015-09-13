@@ -8,8 +8,6 @@ var os = require('os');
 var epoll = require('epoll');
 var verror = require("verror");
 var pinmap = require('./lib/pinmap');
-var serial = require('./lib/serial');
-var i2c = require('./lib/i2c');
 var bone = require('./lib/bone');
 var package_json = require('./package.json');
 var g = require('./lib/constants');
@@ -675,20 +673,6 @@ f.watchdog = hw.watchdog;
 
 // Exported variables
 f.pinmap = pinmap;
-
-f.serial = serial;
-
-f.serialOpen = function() {
-    console.error("serialOpen and all related functions are removed as of v1.0.0. Please use serial.open and refer " +
-        "to README of OctalBoneScript for more information");
-};
-
-f.i2c = i2c;
-
-f.i2cOpen = function() {
-    console.error("i2cOpen and all related functions are removed as of v1.0.0. Please use i2c.open and refer " +
-        "to README of OctalBoneScript for more information");
-};
 
 for (var x in g) {
     f[x] = g[x];
