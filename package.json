@@ -12,7 +12,7 @@
     "octalbonescript",
 	"octalbonescript_capemgr4_1"
   ],
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://github.com/ruth0000/octalbonescript_capemgr4_1#readme",
   "repository": {
     "type": "git",
@@ -39,6 +39,5 @@
   "maintainers": [
     "adityapatadia <aditya@patadia.org>"
   ],
-  "license": "ISC",
-  "readme": "README.md"
+  "license": "ISC"
 }
