@@ -1,11 +1,11 @@
 OctalBoneScript
 ===============
 
-Fork to correct some changes to sysfs in relation to the Beaglebone kernel 4.1.6-bone15 and Cape manager 4.1. Mostly changes to folder structure. And a tricky change to pwmchip index numbering in relation to the actual ehrpwm index. 
+Fork to correct some changes to sysfs in relation to the Beaglebone kernel 4.1.6-bone15 and Cape manager 4.1. Mostly changes to folder structure. And a tricky change to pwmchip index numbering in relation to the actual ehrpwm index. Analog and digital IO tested. Interrupts should also work.
 
 A more stable, continuously tested and better node.js library for scripting BeagleBone. This is alternative to [bonescript](https://github.com/jadonk/bonescript) library.
 
-__v1.0.0 introduces major BC breaks. Please refer to [releases](https://github.com/theoctal/octalbonescript/releases) to see the changes made in latest version.__
+__v1.0.0 introduces major BC breaks. Serialport and I2C support have been dropped. Please refer to [releases](https://github.com/theoctal/octalbonescript/releases) to see the changes made in latest version.__
 
 Installation
 ------------
