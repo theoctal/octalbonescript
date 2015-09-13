@@ -39,5 +39,6 @@
   "maintainers": [
     "adityapatadia <aditya@patadia.org>"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "readme": "README.md"
 }
