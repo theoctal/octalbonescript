@@ -12,7 +12,7 @@ Installation
 OctalBoneScript can be installed on beaglebone and beaglebone black. Run following command as root.
 
 ````sh
-npm install -g octalbonescript
+npm install -g octalbonescript_capemgr4_1
 ````
 
 Please note that Octalbonescript does not recommend Linux Angstrom. We strongly recommend that you upgrade your BeagleBone to Debian by following link given below:
