@@ -11,6 +11,14 @@ Recommended method to install OctalBoneScript is to add following line in your p
 
 ```json
 
+"octalbonescript" : "1.2.x"
+
+```
+
+If you are running nodejs v0.10.x, you should use 1.1.x branch.
+
+```json
+
 "octalbonescript" : "1.1.x"
 
 ```
