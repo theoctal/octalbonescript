@@ -31,20 +31,12 @@ if (os.type() === 'Linux' && os.arch() === 'arm') {
 
     // AUTO_LOAD_CAPE can be used to turn off the autoloading of capes.
     if (typeof process.env.AUTO_LOAD_CAPE === 'undefined' || process.env.AUTO_LOAD_CAPE === '1') {
-
-        if (!bone.is_cape_universal()) {
-            debug('Loading Universal Cape interface...');
-            bone.load_dt_sync('cape-universaln');
-        }
-
-        // if (!bone.is_audio_enable()) {
-        //     debug('Loading AUDIO Cape...');
-        //     bone.load_dt_sync("cape-univ-audio");
-        // }
-
-        if (!bone.is_hdmi_enable()) {
-            debug('Loading HDMI Cape...');
-            bone.load_dt_sync('cape-univ-hdmi');
+        debug('Checking for Universal Cape interface... prevent with AUTO_LOAD_CAPE=0');
+        if (bone.is_cape_universal_loaded() == false) {
+            debug('No Universal Cape interface found will attempt to load...');
+            bone.load_universal_cape();
+        } else {
+            debug('Universal Cape interface already loaded ...');
         }
 
     }
