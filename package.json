@@ -14,7 +14,7 @@
     "bonescript",
     "octalbonescript"
   ],
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "debug": "2.2.x",
-    "verror": "1.6.x",
+    "verror": "1.8.x",
     "serialport": "2.0.x"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
   },
   "scripts": {},
   "optionalDependencies": {
-    "i2c": "0.2.1",
+    "i2c": "0.2.*",
     "epoll": "0.1.*"
   }
 }
