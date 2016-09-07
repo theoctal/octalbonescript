@@ -49,7 +49,7 @@ if (os.type() === 'Linux' && os.arch() === 'arm') {
 
 f.loadCape = function(name) {
     var result = bone.load_dt_sync(name);
-    if (name.indexOf('cape-universal') >= 0) {
+    if (name.indexOf('cape-universaln') >= 0) {
         enableAnalogInputs();
     }
     return result;
