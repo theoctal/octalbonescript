@@ -25,9 +25,9 @@
     "node": ">= 0.10.24"
   },
   "dependencies": {
-    "debug": "2.2.x",
+    "debug": "2.6.x",
     "verror": "1.8.x",
-    "serialport": "2.0.x"
+    "serialport": "4.0.x"
   },
   "devDependencies": {
     "chai": "^2.0.0",
