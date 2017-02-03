@@ -11,7 +11,7 @@ Recommended method to install OctalBoneScript is to add following line in your p
 
 ```json
 
-"octalbonescript" : "1.2.x"
+"octalbonescript" : "1.3.x"
 
 ```
 
