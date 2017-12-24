@@ -1,6 +1,8 @@
 OctalBoneScript
 ===============
 
+__This package is abandoned and no longer maintained. Please use https://www.npmjs.com/package/beaglebone-io to interact with BeagleBone and its variants.__
+
 [![npm version](https://badge.fury.io/js/octalbonescript.svg)](https://badge.fury.io/js/octalbonescript)
 
 A more stable, continuously tested and better node.js library for scripting BeagleBone. This is alternative to [bonescript](https://github.com/jadonk/bonescript) library.
